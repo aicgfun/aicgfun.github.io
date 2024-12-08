@@ -1,0 +1,41 @@
+/*页面样式*/
+
+body{background:#f2f6fa;}
+
+header{left:0; top:0; width:90%; height:3.75rem; line-height:3.75rem; padding:0 5%; background:#177dff; color:#fff;}
+header img{height:1.625rem; margin-top:1.0625rem;}
+header h3{font-size:0.875rem;}
+
+main{padding:13.75rem 0 13.125rem 0;}
+#logo img{height:10rem; margin:0 auto; border-radius:0.5rem;}
+#font{margin-top:1.875rem;}
+#font img{height:1.625rem; margin:0 auto;}
+
+#download{width:47.5rem; margin:10rem auto 0 auto;}
+#download dl dd{float:left; width:22.5rem; height:4rem; line-height:4rem; margin:0 0.625rem; background:#177dff; border-radius:2rem; font-size:1.375rem; text-align:center;}
+#download dl dd a{display:block;color:#fff;FONT-SIZE: 20px;}
+#download dl dd em{display:inline-block; background-repeat:no-repeat; background-position:left center;}
+#download dl dd.ios em{padding-left:2.75rem; background-image:url(http://www.omofun.org/img/e2b06801fb4f4bbab64511e4bd4360e4.png); background-size:1.5rem 1.875rem;}
+#download dl dd.android em{padding-left:2.875rem; background-image:url(http://www.omofun.org/img/84a5e3f746ad4c5e8b27fb1b0ca5b5c6.png); background-size:1.625rem 1.875rem;}
+
+footer{left:0; bottom:0; width:100%; height:3.125rem; line-height:3.125rem; background:#177dff; font-size:0.875rem; color:#fff;}
+footer a{color:#fff;}
+
+/*自适应样式*/
+
+@media screen and (max-width:414px){
+	header{height:3.375rem; line-height:3.375rem;}
+	header img{height:1.25rem;}
+
+	main{padding:8.375rem 0 7.875rem 0;}
+	#logo img{height:6.875rem;}
+	#font{margin-top:1.25rem;}
+	#font img{height:1.25rem;}
+	#download{width:100%; margin-top:3.75rem;}
+	#download dl dd{float:none; width:90%; height:3.5rem; line-height:3.5rem; margin:1.25rem auto 0 auto; border-radius:1.75rem; font-size:1rem;}
+	#download dl dd:first-child{margin-top:0;}
+	#download dl dd.ios em{padding-left:2.375rem; background-size:1.125rem 1.375rem;}
+	#download dl dd.android em{padding-left:2.5rem; background-size:1.25rem 1.5rem;}
+
+	footer{height:2.875rem; line-height:2.875rem;}
+}
